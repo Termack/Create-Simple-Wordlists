@@ -15,7 +15,7 @@ helpm = '''
     Options
         -h show  this help message
         -i chose the number of letters of the alphabet
-        -f chose the files to open and put in the beggining of each string
+        -f chose the files to open
         -t put all possible combinations of the files instead of putting it in order
         -m chose the message
         -a chose the alphabet used for bruteforcing, default = "0123456789"
@@ -23,9 +23,7 @@ helpm = '''
             1 = message in the beggining and alphabet in the end
             2 = alphabet in the beggining and message in the end
             3 = alphabet in the beggining and the end
-            4 = message in the beggining and the end
-        
-    Examples'''
+            4 = message in the beggining and the end'''
 args =  sys.argv
 if(len(args) <= 1):
     print(helpm)
