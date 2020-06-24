@@ -11,7 +11,7 @@ In this example there will be created a file named out.txt that has all possible
 
 * -i choose how many characters long can be the iterations of the alphabet
 
-* -a choose the alphabet (the default is "01234567890")
+* -a choose the alphabet (the default is "0123456789")
 
 * -f chose the files to open and then the program will then print the words of the first file folowed by the words of the second file and will keep going on for all files ...
 
